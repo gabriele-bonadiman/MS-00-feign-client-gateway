@@ -1,22 +1,19 @@
-# Note
+Keep this folder structure or edit the uaa path in the microservice application properties
 
-In order to run swagger UI start the project with
-```
-./mvn
-```
-Once built open a browser at
-```
-http://localhost:8080/#/docs
-```
+```text
+|
+| - UAA
+| - REGISTRY
+  |
+  | - MICROSERVICES
+    |
+    | - Microservice 1
+    | - Microservice 2
+    | - ...
+    | - Microservice N
+```  
 
-To test microservice communication hit 
-```
-GET /api/beers/parent/{name}
-```
-using beer name 
-```
-Sinister
-```
+
 
 
 
